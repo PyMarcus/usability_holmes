@@ -1,0 +1,155 @@
+
+/*
+    BODY PAGE
+*/
+html, body{
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #252836;
+    color: white;
+}
+
+.h-custom{
+    margin-top: 10%;
+}
+.light-effect {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, rgba(17, 12, 173, 0.6), rgba(255, 255, 255, 0));
+    animation: moveLight 6.5s infinite linear;
+    border-radius: 50%;
+  }
+
+@keyframes moveLight {
+    0% {
+      top: -50%;
+      left: -50%;
+    }
+    50% {
+      top: 100%;
+      left: 100%;
+    }
+    100% {
+      top: -50%;
+      left: -50%;
+    }
+}
+/*
+    media query
+*/
+
+
+@media  screen and (max-width: 600px) {
+    *{
+        font-family: 'Sixtyfour'!important;
+    }
+    h1{
+        font-size: 2em !important;
+    }
+    input{
+        font-size: 0.7em !important;
+    }
+    label{
+        font-size: 0.6em !important;
+    }
+    #btnSubmit{
+        font-size:0.9em;
+    }
+
+   
+  }
+  
+  /* Para telas médias (por exemplo, tablets) */
+  @media  screen and (min-width: 601px) and (max-width: 1024px) {
+    *{
+        font-family: 'Sixtyfour'!important;
+    }
+    h1{
+        font-size: 3em !important;
+    }
+    input{
+        font-size: 0.8em !important;
+    }
+    label{
+        font-size: 0.7em !important;
+    }
+    #btnSubmit{
+        font-size:1em;
+    }
+  }
+  
+  /* Para telas grandes (por exemplo, desktops) */
+  @media  screen and (min-width: 1025px) {
+   
+    *{
+        font-family: 'Sixtyfour'!important;
+    }
+    h1{
+        font-size: 4em !important;
+    }
+    input{
+        font-size: 0.9em !important;
+    }
+    label{
+        font-size: 0.8em !important;
+    }
+    #btnSubmit{
+        font-size:1.2em;
+    }
+    
+   
+  }
+
+/*
+    DEBUG
+*/
+.border-debug{
+    border: 1px solid red;
+}
+
+/*
+    BUTTONS
+*/
+#btnSubmit{
+    background-color: #5021ff;
+    font-weight: bold;
+    border: #4500cc;
+}
+
+a:hover{
+    color: #6014f7;
+}
+
+#btnSubmit:hover{
+    background-color: #6014f7;
+}
+
+
+/*
+    SCROLLBAR
+*/
+
+/* Estilizar o trilho da barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px;  /* Define a largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.8);  /* Cor do trilho */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4500cc;  /* Cor do polegar da barra de rolagem */
+    border-radius: 10px;
+    border: 2px solid #4500cc;  /* Borda ao redor do polegar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6014f7;  /* Cor do polegar ao passar o mouse */
+    border-radius: 10px;
+    border: 2px solid #4500cc;  /* Borda ao redor do polegar no hover */
+}

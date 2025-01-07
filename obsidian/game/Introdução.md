@@ -1,0 +1,3 @@
+Bem-vindo a _Detetive da Usabilidade_ — o jogo onde você, como um experiente detetive digital, vai investigar e solucionar problemas de usabilidade em sites e sistemas de empresas de diversos setores! Seu trabalho é identificar falhas que comprometem a experiência do usuário e aplicar as heurísticas de usabilidade de Nielsen para encontrar a melhor solução.
+
+Ao longo do jogo, você verá diferentes empresas enfrentando problemas de usabilidade em seus sistemas ou sites. Sua missão é diagnosticar rapidamente esses problemas e identificar qual heurística de Nielsen se aplica a cada situação. Prepare-se para ser rápido, preciso e afiar suas habilidades de detetive digital!
