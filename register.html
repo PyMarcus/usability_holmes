@@ -28,33 +28,36 @@
      
     <title>Usability Holmes</title>
 </head>
-<body onload="changeLoginImage(1)">
+<body>
 
-    <h1 class="h1 text-center mt-3">Usability Holmes</h1>
+    <h1 class="h1 text-center mt-3">Usability Holmes - Registro</h1>
     <div class="vh-100 light-effect"></div>
     <!--Login-->
     <section id="loginSection">
-        <div class="container h-custom">
-          <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="container">
+          <div class="row flex-column d-flex justify-content-center align-items-center h-100">
 
             <!-- Image start-->
             <div class="col-md-9 col-lg-6 col-xl-5">
-              <img src="assets/img/main.png"
+              <img src="assets/img/register.png"
                 class="img-fluid" alt="inspector image" id="imageLogin">
             </div>
             <!-- end image-->
 
             <!-- Form -->
-            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 mb-5">    
+            <div class="col-md-8 col-lg-6 col-xl-4 mb-5">    
+                <!-- Alert -->
+                 <div
+                    id="registerAlertSuccess"
+                    class="alert alert-success alert-dismissible fade show"
+                    role="alert" style="display:none;">
+                    <strong>Sucesso!<br><br></strong> Agora, você já pode jogar!</div>
 
-                <!--Alert-->
-                <div class="alert alert-success alert-dismissible fade show" id="loginAlertSuccess" role="alert" style="display: none;">
-                    Bem Vindo!
-                </div>
-                <div class="alert alert-danger alert-dismissible fade show" id="loginAlertFail" role="alert" style="display: none;">
-                  <b>Falha!</b><br><br>
-                  Verifique suas credênciais ou crie uma nova conta!
-              </div>
+                <div
+                    id="registerAlertFail"
+                    class="alert alert-danger alert-dismissible fade show"
+                    role="alert" style="display:none;">
+                    <strong>Erro!<br><br></strong> Verifique os dados e sua conexão!</div>
 
                 <!-- Form Start-->
                 <form>
@@ -76,10 +79,10 @@
                 
                 <!-- Start button and register-->
                 <div class="text-center text-lg-start mt-4 pt-2">
-                    <button id="btnSubmit"  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
-                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Iniciar</button>
-                    <p class="small fw-bold mt-2 pt-1 mb-0">Não tem uma conta?
-                        <a href="register.html" id="registerLink" class="link-danger">Registre-se</a></p>
+                    <button id="btnRegister"  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Cadastrar</button>
+                    <p class="small fw-bold mt-2 pt-1 mb-0">Já tem uma conta?
+                        <a href="index.html" id="enterLink" class="link-danger">Entrar</a></p>
                 </div>
     
             </form>

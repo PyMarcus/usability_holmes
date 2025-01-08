@@ -12,6 +12,9 @@ html, body{
 .h-custom{
     margin-top: 10%;
 }
+
+/*Animation*/
+
 .light-effect {
     position: absolute;
     top: -50%;
