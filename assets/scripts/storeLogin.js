@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 const alert = document.getElementById("loginAlertSuccess");
                 alert.style.display = "block";
                 setTimeout(()=>{
-                    window.location.href = "game.html";
+                    window.location.href = "storyboard-scene-1.html";
                 }, 3000);
             }else{
                 const alert = document.getElementById("loginAlertFail");
