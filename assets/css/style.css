@@ -26,6 +26,7 @@ a{
     width: 200%;
     height: 200%;
     background: linear-gradient(45deg, rgba(17, 12, 173, 0.6), rgba(255, 255, 255, 0));
+    /* background: linear-gradient(45deg, #fa1e4e, rgba(255, 255, 255, 0)); */
     animation: moveLight 6.5s infinite linear;
     border-radius: 50%;
   }
@@ -467,8 +468,89 @@ a:hover{
 }
 
 /*
-    cursor
+    navbar
 */
 
+nav.custom-navbar{
+    background: rgba(0,0,0, 0.6);
+    padding: 15px 0px;
+}
+.pts{
+    color: #fa1e4e;
+}
+.game-body{
+    background: #131019;
+}
 
+/*
+    footer
+*/
 
+#links{
+    right: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+#links svg{
+    cursor: pointer;
+}
+#links svg:hover{
+    transform: scale(1.1, 1.1);
+}
+
+/*
+    GAME
+*/
+.box{
+    cursor: pointer;
+    background:#251f32;
+    border-radius: 4%;
+    padding: 5px;
+    width: 350px;
+    height: 200px;
+}
+
+.box img{
+    border-radius: 4%;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.box:hover{
+    border: 1px solid #4a2f2f;
+    background:#beb6d2;
+    object-fit: cover;
+}
+
+.box img:hover{
+    transform: scale(1.01, 1.01);
+}
+
+/*
+    Info modal
+*/
+
+div[class="modal-header"]{
+    background: #5021ff!important;
+}
+
+div[class="modal-body"]{
+    color:#4c516b;
+    font-size: 1.5vh;
+    line-height: 1.3;
+}
+
+h6{
+    color: black;
+}
+
+strong{
+    color: black;
+}
+
+.modal-footer .btn{
+    background: #fa1e4e!important;
+}
