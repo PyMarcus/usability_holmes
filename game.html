@@ -85,8 +85,8 @@
             <div class="tab-content" id="imageQuestionModalTabsContent">
 
               <!-- imge -->
-              <div class="tab-pane fade show active" id="imageContent" role="tabpanel" aria-labelledby="imageTab">
-                <img id="modalImage" src="" class="img-fluid" alt="Imagem do local">
+              <div class="tab-pane fade show active container-expand border" id="imageContent" role="tabpanel" aria-labelledby="imageTab">
+                <img id="modalImage" src="" class="img-fluid border" width="100%" height="100%" alt="Imagem do local">
               </div>
 
               <!-- questions -->
@@ -98,8 +98,9 @@
 
             </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <div class="modal-footer d-flex">
+            <button id="solve" class="btn btn-success" style="background: green!important;">Enviar</button>
+            <button type="button" class="btn btn-secondary"  data-dismiss="modal">Fechar</button>
           </div>
         </div>
       </div>
@@ -175,7 +176,7 @@
     <section id="home" class="container">
         <div class="row  d-flex justify-content-between">
             <div class="col-md-4 box" id="escola">
-                <img src="assets/img/game-locals/school.jpg" alt="Educação" class="img-fluid" data-toggle="modal" data-target="#imageQuestionModal" data-image="assets/img/game-locals/school.jpg" data-questions="Pergunta sobre a heurística 1, Pergunta sobre a heurística 2">
+                <img src="assets/img/game-locals/school.jpg" alt="Educação" class="img-fluid" data-toggle="modal" data-target="#imageQuestionModal" data-image="assets/img/game-locals/school.jpg" data-questions="1) Qual heurística de Nielsen não é respeitada?, 2) O sistema não é facilmente compreensível (age-se por meio da prática) logo qual a heurística?, 3) Conhecendo o moodle a ausência de qual heurística mais impacta os estudantes?">
             </div>
             <div class="col-md-4 box" id="varejo">
               <img src="assets/img/game-locals/varejo.jpg" alt="Varejo" class="img-fluid">
